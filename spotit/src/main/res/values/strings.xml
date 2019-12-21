@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">Spot-it</string>
+
+    <!-- menu -->
+    <string name="menu_item_application_connect">Connect</string>
+    <string name="menu_item_application_logout">Logout</string>
+    <string name="menu_item_application_about">About</string>
+
+    <!-- main activity -->
+    <string name="main_activity_tab_1">Spot it!</string>
+    <string name="main_activity_tab_2">Images</string>
+    <string name="main_activity_tab_3">Projects</string>
+
+    <!-- projects tab -->
+    <string name="projects_header">Projects</string>
+    <string name="project_active">[Active project]</string>
+    <string name="project_inactive">[Inactive]</string>
+    <string name="data_count_none">No images uploaded</string>
+    <string name="data_count_one">1 image uploaded</string>
+    <string name="data_count_many">%1d images uploaded</string>
+    <string name="delete_project_dlg_title">Remove project</string>
+    <string name="delete_project_dlg_msg">Do you want to remove project %1$s from this device?</string>
+
+    <!-- images tab -->
+    <string name="image_header_no_project">No project selected</string>
+    <string name="image_header_project">Images for project \"%1s\"</string>
+    <string name="image_delete_dlg_title">Remove image</string>
+    <string name="image_delete_dlg_msg">Do you want to remove image %1$s from this device?</string>
+    <string name="image_upload_dlg_title">Upload image</string>
+    <string name="image_upload_dlg_msg">Do you want to upload image to project \"%1$s\"?</string>
+    <string name="image_upload_geolocation_label">Upload geolocation</string>
+    <string name="edit_title_label">Title:</string>
+    <string name="edit_title_hint">Enter image title</string>
+
+    <!-- capture tab -->
+    <string name="capture_image">Take new image</string>
+    <string name="browse_gallery">Browse gallery</string>
+
+    <!-- about -->
+    <string name="about_version">Spot-it 0.1 Beta 7</string>
+    <string name="about_text">
+<![CDATA[
+<p>Developers: Mike Sharples, Eloy Villasclaras, Christothea Herodotou.</p>
+<p>This software is distributed under a GPLv3 licence. Source code available at
+<a href="https://github.com/nQuire/sciencetoolkit">https://github.com/nQuire/sciencetoolkit</a></p>
+<p>Visit the linked nQuire-it platform for science missions: <a href="http://www.nquire-it.org">www.nquire-it.org</p>
+]]>
+    </string>
+    <string name="about_disclaimer">
+<![CDATA[
+<p>The Spot-it app is provided by
+        <a href="https://www.open.ac.uk">The Open University</a>, UK,
+        a company incorporated by Royal Charter in England and Wales.
+        Our main office is at Walton Hall, Milton Keynes MK7 6AA.
+        If you wish to contact us, send a letter to the above address or an email to
+        <a href="mailto:data.protection@open.ac.uk">data.protection@open.ac.uk</a>.</p>
+
+<p>We exclude any warranty, express or implied, as to the quality, accuracy, timeliness,
+        completeness, performance, fitness for a particular purpose of the application or any of its contents.
+        We will not be liable for any damages (including without limitation damages for loss of profit,
+        revenue or anticipated savings) arising in contract, tort or otherwise from the use of or
+        inability to use the application or any of its contents or from any action taken
+        (or refrained from being taken) as a result of using the application or any such contents.</p>
+
+        <p>Copyright © 2014-19, <a href="https://www.open.ac.uk">The Open University</a>. All rights reserved.</p>
+        ]]>
+    </string>
+</resources>

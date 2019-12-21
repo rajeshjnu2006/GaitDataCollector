@@ -1,0 +1,30 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '28.0.3'
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 26
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt', 'proguard-google-api-client.txt'
+        }
+    }
+
+    dependencies {
+        api "com.android.support:appcompat-v7:26.1.0"
+        api 'org.apache.httpcomponents:httpcore:4.4.9'
+        api 'org.apache.httpcomponents:httpclient:4.5.5'
+        api('org.apache.httpcomponents:httpmime:4.3') {
+            exclude module: "httpclient"
+        }
+    }
+
+    useLibrary 'org.apache.http.legacy'
+
+}
