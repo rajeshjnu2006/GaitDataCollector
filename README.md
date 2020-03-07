@@ -1,3 +1,13 @@
+#Edited by @Rajesh Kumar. 
+# I customized the following data collection app to collect the data from participants in my study. 
+Followig modifications were made to get the app work the way my data collection demanded.
+
+(1) The sampling rate was fixed to 46
+(2) The app was modified to make it fault tolerent. In other words, the app was getting to sleep in the higher version of Android platforms randomly after a few seconds. The app was thus modified to get rid of the problem.
+(3) Another work-around that I found to the sleeping app issues is to install another app like CPU awake that keeps the phone awake as long as the data is being collected
+(4) There was also glitch in saving ans sharing the data stored into files. The code was debugged to make sure that the app allows the researchers to be able to save/share the data (.csv) files. 
+
+#####################################################################################################################################
 
 # Sense-it _(sensors)_ #
 
